@@ -57,23 +57,23 @@ public class NullGuard<T, R> implements Assertion<T, R> {
     }
 
     @Override
-    public R isOneOf(T... expectedElements) {
-        return delegate.isOneOf(checkArgument(expectedElements));
+    public R isIn(T... expectedElements) {
+        return delegate.isIn(checkArgument(expectedElements));
     }
 
     @Override
-    public R isOneOf(Collection<? extends T> expectedElements) {
-        return delegate.isOneOf(checkArgument(expectedElements));
+    public R isIn(Collection<? extends T> expectedElements) {
+        return delegate.isIn(checkArgument(expectedElements));
     }
 
     @Override
-    public R isNotOneOf(T... expectedElements) {
-        return delegate.isNotOneOf(checkArgument(expectedElements));
+    public R isNotIn(T... expectedElements) {
+        return delegate.isNotIn(checkArgument(expectedElements));
     }
 
     @Override
-    public R isNotOneOf(Collection<? extends T> expectedElements) {
-        return delegate.isNotOneOf(checkArgument(expectedElements));
+    public R isNotIn(Collection<? extends T> expectedElements) {
+        return delegate.isNotIn(checkArgument(expectedElements));
     }
 
     @Override

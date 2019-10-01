@@ -100,23 +100,23 @@ public class RecurringStringAssertion implements StringAssertion<Intermediate<Re
     }
 
     @Override
-    public Intermediate<RecurringStringAssertion> isOneOf(String... expectedElements) {
-        return chainingAssertion.isOneOf(expectedElements);
+    public Intermediate<RecurringStringAssertion> isIn(String... expectedElements) {
+        return chainingAssertion.isIn(expectedElements);
     }
 
     @Override
-    public Intermediate<RecurringStringAssertion> isOneOf(Collection<? extends String> expectedElements) {
-        return chainingAssertion.isOneOf(expectedElements);
+    public Intermediate<RecurringStringAssertion> isIn(Collection<? extends String> expectedElements) {
+        return chainingAssertion.isIn(expectedElements);
     }
 
     @Override
-    public Intermediate<RecurringStringAssertion> isNotOneOf(String... expectedElements) {
-        return chainingAssertion.isNotOneOf(expectedElements);
+    public Intermediate<RecurringStringAssertion> isNotIn(String... expectedElements) {
+        return chainingAssertion.isNotIn(expectedElements);
     }
 
     @Override
-    public Intermediate<RecurringStringAssertion> isNotOneOf(Collection<? extends String> expectedElements) {
-        return chainingAssertion.isNotOneOf(expectedElements);
+    public Intermediate<RecurringStringAssertion> isNotIn(Collection<? extends String> expectedElements) {
+        return chainingAssertion.isNotIn(expectedElements);
     }
 
     @Override

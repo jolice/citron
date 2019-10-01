@@ -61,23 +61,23 @@ public class EvaluatingAssertion<T> implements Assertion<T, Matcher<T>> {
     }
 
     @Override
-    public Matcher<T> isOneOf(T... expectedElements) {
-        return evaluate(delegate.isOneOf(expectedElements));
+    public Matcher<T> isIn(T... expectedElements) {
+        return evaluate(delegate.isIn(expectedElements));
     }
 
     @Override
-    public Matcher<T> isOneOf(Collection<? extends T> expectedElements) {
-        return evaluate(delegate.isOneOf(expectedElements));
+    public Matcher<T> isIn(Collection<? extends T> expectedElements) {
+        return evaluate(delegate.isIn(expectedElements));
     }
 
     @Override
-    public Matcher<T> isNotOneOf(T... expectedElements) {
-        return evaluate(delegate.isNotOneOf(expectedElements));
+    public Matcher<T> isNotIn(T... expectedElements) {
+        return evaluate(delegate.isNotIn(expectedElements));
     }
 
     @Override
-    public Matcher<T> isNotOneOf(Collection<? extends T> expectedElements) {
-        return evaluate(delegate.isNotOneOf(expectedElements));
+    public Matcher<T> isNotIn(Collection<? extends T> expectedElements) {
+        return evaluate(delegate.isNotIn(expectedElements));
     }
 
     @Override

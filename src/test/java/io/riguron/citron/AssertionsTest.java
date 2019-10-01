@@ -9,6 +9,18 @@ import static io.riguron.citron.Assertions.assertThat;
 
 public class AssertionsTest {
 
+
+    @Test
+    public void testString() {
+        int result = 2 + 2;
+        assertThat(result)
+                .isNotNull()
+                .and()
+                .is(4)
+                .and()
+                .isIn(3, 4, 5);
+    }
+
     @Test
     public void testForObject() {
 
@@ -19,15 +31,15 @@ public class AssertionsTest {
                 .and()
                 .isNotNull()
                 .and()
-                .isOneOf(6, 205, 2)
+                .isIn(6, 205, 2)
                 .and()
-                .isOneOf(Arrays.asList(6, 205, 5))
+                .isIn(Arrays.asList(6, 205, 5))
                 .and()
                 .matches(x -> x == 200 + 5)
                 .and()
                 .equalToEveryOf(205, 205, 205)
                 .and()
-                .isNotOneOf(206, 204, 203)
+                .isNotIn(206, 204, 203)
                 .and()
                 .isInstanceOf(Integer.class)
                 .and()
@@ -75,7 +87,7 @@ public class AssertionsTest {
 
 
         assertThat("abcde")
-                .isOneOf("abcde", "abcd", "ab")
+                .isIn("abcde", "abcd", "ab")
                 .and()
                 .is("abcde")
                 .and()
@@ -97,7 +109,7 @@ public class AssertionsTest {
                 .and()
                 .isAnything()
                 .and()
-                .isNotOneOf("a", "b", "c", "d")
+                .isNotIn("a", "b", "c", "d")
                 .and()
                 .isInstanceOf(String.class)
                 .and()

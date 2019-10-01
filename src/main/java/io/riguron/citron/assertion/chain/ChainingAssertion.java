@@ -63,23 +63,23 @@ public class ChainingAssertion<T, R> implements Assertion<T, Intermediate<R>> {
     }
 
     @Override
-    public Intermediate<R> isOneOf(T... expectedElements) {
-        return intermediate(() -> matcherAssertion.isOneOf(expectedElements));
+    public Intermediate<R> isIn(T... expectedElements) {
+        return intermediate(() -> matcherAssertion.isIn(expectedElements));
     }
 
     @Override
-    public Intermediate<R> isOneOf(Collection<? extends T> expectedElements) {
-        return intermediate(() -> matcherAssertion.isOneOf(expectedElements));
+    public Intermediate<R> isIn(Collection<? extends T> expectedElements) {
+        return intermediate(() -> matcherAssertion.isIn(expectedElements));
     }
 
     @Override
-    public Intermediate<R> isNotOneOf(T... expectedElements) {
-        return intermediate(() -> matcherAssertion.isNotOneOf(expectedElements));
+    public Intermediate<R> isNotIn(T... expectedElements) {
+        return intermediate(() -> matcherAssertion.isNotIn(expectedElements));
     }
 
     @Override
-    public Intermediate<R> isNotOneOf(Collection<? extends T> expectedElements) {
-        return intermediate(() -> matcherAssertion.isNotOneOf(expectedElements));
+    public Intermediate<R> isNotIn(Collection<? extends T> expectedElements) {
+        return intermediate(() -> matcherAssertion.isNotIn(expectedElements));
     }
 
     @Override

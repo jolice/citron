@@ -66,22 +66,22 @@ public class MatcherProvidingAssertion<T> implements Assertion<T, Matcher<T>> {
     }
 
     @Override
-    public Matcher<T> isOneOf(T... expectedElements) {
+    public Matcher<T> isIn(T... expectedElements) {
         return new CollectionMatcher<>(new OneOf<>(), expectedElements, new OneOfDescription<>(), actual);
     }
 
     @Override
-    public Matcher<T> isOneOf(Collection<? extends T> expectedElements) {
+    public Matcher<T> isIn(Collection<? extends T> expectedElements) {
         return new CollectionMatcher<>(new OneOf<>(), expectedElements, new OneOfDescription<>(), actual);
     }
 
     @Override
-    public Matcher<T> isNotOneOf(T... expectedElements) {
+    public Matcher<T> isNotIn(T... expectedElements) {
         return new CollectionMatcher<>(new Inverse<>(new OneOf<>()), expectedElements, new NotOneOfDescription<>(), actual);
     }
 
     @Override
-    public Matcher<T> isNotOneOf(Collection<? extends T> expectedElements) {
+    public Matcher<T> isNotIn(Collection<? extends T> expectedElements) {
         return new CollectionMatcher<>(new Inverse<>(new OneOf<>()), expectedElements, new NotOneOfDescription<>(), actual);
     }
 
