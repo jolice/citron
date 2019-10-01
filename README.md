@@ -39,9 +39,9 @@ List of currently supported assertions:
 | equalToEveryOf | Collection of elements | Whether the collection completely consists of actual values |
 
 
-# Function assertions
+# Method assertions
 
-Function assertions allows for asserting whether an execution of some method (or multiple methods) was completed
+Method assertions allow for asserting whether an execution of some method (or multiple methods) was completed
 without producing an exception.
 
 For example, given the method:
@@ -59,7 +59,7 @@ assertThat(this::fail)
         .doesThrow(UnsupportedOperationException.class);
 ```
 
-To assert that function completes without throwing a runtime exception:
+To assert that method completes without throwing a runtime exception:
 
 ```java
 String result = "abcde";
