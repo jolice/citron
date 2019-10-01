@@ -3,6 +3,7 @@
 Basic, proof-of-concept implementation of the testing framework. Provides fluent syntax for various assertions.
 
 [![Build Status](https://travis-ci.org/riguron/Citron.svg?branch=master)](https://travis-ci.org/riguron/Citron)
+[![codecov](https://codecov.io/gh/riguron/Citron/branch/master/graph/badge.svg)](https://codecov.io/gh/riguron/Citron)
 
 # Basic usage
 
