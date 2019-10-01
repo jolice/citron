@@ -4,6 +4,7 @@ Basic, proof-of-concept implementation of the testing framework. Provides fluent
 
 [![Build Status](https://travis-ci.org/riguron/Citron.svg?branch=master)](https://travis-ci.org/riguron/Citron)
 [![codecov](https://codecov.io/gh/riguron/Citron/branch/master/graph/badge.svg)](https://codecov.io/gh/riguron/Citron)
+[![HitCount](http://hits.dwyl.io/riguron/Citron.svg)](http://hits.dwyl.io/riguron/Citron)
 
 # Basic usage
 
