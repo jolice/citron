@@ -1,6 +1,7 @@
 # Citron
 
 Basic, proof-of-concept implementation of the testing framework. Provides fluent syntax for various assertions.
+
 [![Build Status](https://travis-ci.org/riguron/Citron.svg?branch=master)](https://travis-ci.org/riguron/Citron)
 
 # Basic usage
