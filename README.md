@@ -3,6 +3,33 @@
 Basic, proof-of-concept implementation of the testing framework. Provides fluent syntax for various assertions.
 
 [![Build Status](https://travis-ci.org/riguron/Citron.svg?branch=master)](https://travis-ci.org/riguron/Citron)
+[![codecov](https://codecov.io/gh/riguron/Citron/branch/master/graph/badge.svg)](https://codecov.io/gh/riguron/Citron)
+[![](https://jitpack.io/v/riguron/Citron.svg)](https://jitpack.io/#riguron/Citron)
+[![HitCount](http://hits.dwyl.io/riguron/Citron.svg)](http://hits.dwyl.io/riguron/Citron)
+
+# Dependency
+
+This project is distributed via JitPack. Register a JitPack repository at your pom.xml:
+
+```xml
+<repositories>
+    <repository>
+        <id>jitpack.io</id>
+        <url>https://jitpack.io</url>
+    </repository>
+</repositories>
+```
+
+And add the following dependency:
+
+```xml
+<dependency>
+    <groupId>com.github.riguron</groupId>
+    <artifactId>Citron</artifactId>
+    <version>v1.0</version>
+    <scope>test</scope>
+</dependency>
+```
 
 # Basic usage
 
