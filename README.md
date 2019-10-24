@@ -5,6 +5,8 @@ Basic, proof-of-concept implementation of the testing framework. Provides fluent
 [![Build Status](https://travis-ci.org/riguron/Citron.svg?branch=master)](https://travis-ci.org/riguron/Citron)
 [![codecov](https://codecov.io/gh/riguron/Citron/branch/master/graph/badge.svg)](https://codecov.io/gh/riguron/Citron)
 [![](https://jitpack.io/v/riguron/Citron.svg)](https://jitpack.io/#riguron/Citron)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=riguron_Citron&metric=alert_status)](https://sonarcloud.io/dashboard?id=riguron_Citron)
+[![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=riguron_Citron&metric=sqale_rating)](https://sonarcloud.io/dashboard?id=riguron_Citron)
 [![HitCount](http://hits.dwyl.io/riguron/Citron.svg)](http://hits.dwyl.io/riguron/Citron)
 
 # Dependency
