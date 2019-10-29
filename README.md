@@ -1,6 +1,6 @@
 # Citron
 
-Basic, proof-of-concept implementation of the testing framework. Provides fluent syntax for various assertions.
+Simple testing framework. Provides fluent syntax for various assertions.
 
 [![Build Status](https://travis-ci.org/riguron/Citron.svg?branch=master)](https://travis-ci.org/riguron/Citron)
 [![codecov](https://codecov.io/gh/riguron/Citron/branch/master/graph/badge.svg)](https://codecov.io/gh/riguron/Citron)
@@ -9,7 +9,7 @@ Basic, proof-of-concept implementation of the testing framework. Provides fluent
 [![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=riguron_Citron&metric=sqale_rating)](https://sonarcloud.io/dashboard?id=riguron_Citron)
 [![HitCount](http://hits.dwyl.io/riguron/Citron.svg)](http://hits.dwyl.io/riguron/Citron)
 
-# Dependency
+## Dependency
 
 This project is distributed via JitPack. Register a JitPack repository at your pom.xml:
 
@@ -33,7 +33,7 @@ And add the following dependency:
 </dependency>
 ```
 
-# Basic usage
+## Basic usage
 
 All assertions begin with ```assertThat()``` followed by an application of the matchers.
 
@@ -70,7 +70,7 @@ List of currently supported assertions:
 | equalToEveryOf | Collection of elements | Whether the collection completely consists of actual values |
 
 
-# Method assertions
+## Method assertions
 
 Method assertions allow for asserting whether an execution of some method (or multiple methods) was completed
 without producing an exception.
@@ -98,7 +98,7 @@ assertThat(() -> result.substring(1))
          .completesNormally();
 ```
 
-# String assertions
+## String assertions
 
 There are some additional assertions for string provided, such as ```contains``` or whether string is equal
 to another one ignoring the case.
