@@ -7,7 +7,6 @@ Simple testing framework. Provides fluent syntax for various assertions.
 [![](https://jitpack.io/v/riguron/Citron.svg)](https://jitpack.io/#riguron/Citron)
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=riguron_Citron&metric=alert_status)](https://sonarcloud.io/dashboard?id=riguron_Citron)
 [![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=riguron_Citron&metric=sqale_rating)](https://sonarcloud.io/dashboard?id=riguron_Citron)
-[![HitCount](http://hits.dwyl.io/riguron/Citron.svg)](http://hits.dwyl.io/riguron/Citron)
 
 ## Dependency
 
