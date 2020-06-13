@@ -5,8 +5,6 @@ Simple testing framework. Provides fluent syntax for various assertions.
 [![Build Status](https://travis-ci.org/jolice/Citron.svg?branch=master)](https://travis-ci.org/jolice/Citron)
 [![codecov](https://codecov.io/gh/jolice/Citron/branch/master/graph/badge.svg)](https://codecov.io/gh/jolice/Citron)
 [![](https://jitpack.io/v/jolice/Citron.svg)](https://jitpack.io/#jolice/Citron)
-[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=jolice_Citron&metric=alert_status)](https://sonarcloud.io/dashboard?id=jolice_Citron)
-[![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=jolice_Citron&metric=sqale_rating)](https://sonarcloud.io/dashboard?id=jolice_Citron)
 
 ## Dependency
 
