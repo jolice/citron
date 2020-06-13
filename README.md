@@ -2,11 +2,11 @@
 
 Simple testing framework. Provides fluent syntax for various assertions.
 
-[![Build Status](https://travis-ci.org/riguron/Citron.svg?branch=master)](https://travis-ci.org/riguron/Citron)
-[![codecov](https://codecov.io/gh/riguron/Citron/branch/master/graph/badge.svg)](https://codecov.io/gh/riguron/Citron)
-[![](https://jitpack.io/v/riguron/Citron.svg)](https://jitpack.io/#riguron/Citron)
-[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=riguron_Citron&metric=alert_status)](https://sonarcloud.io/dashboard?id=riguron_Citron)
-[![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=riguron_Citron&metric=sqale_rating)](https://sonarcloud.io/dashboard?id=riguron_Citron)
+[![Build Status](https://travis-ci.org/jolice/Citron.svg?branch=master)](https://travis-ci.org/jolice/Citron)
+[![codecov](https://codecov.io/gh/jolice/Citron/branch/master/graph/badge.svg)](https://codecov.io/gh/jolice/Citron)
+[![](https://jitpack.io/v/jolice/Citron.svg)](https://jitpack.io/#jolice/Citron)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=jolice_Citron&metric=alert_status)](https://sonarcloud.io/dashboard?id=jolice_Citron)
+[![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=jolice_Citron&metric=sqale_rating)](https://sonarcloud.io/dashboard?id=jolice_Citron)
 
 ## Dependency
 
@@ -25,7 +25,7 @@ And add the following dependency:
 
 ```xml
 <dependency>
-    <groupId>com.github.riguron</groupId>
+    <groupId>com.github.jolice</groupId>
     <artifactId>Citron</artifactId>
     <version>v1.0</version>
     <scope>test</scope>
